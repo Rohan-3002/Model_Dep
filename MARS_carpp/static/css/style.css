@@ -1,0 +1,73 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_d{
+    /*background-color: #18fff0;*/
+    /*background-color: #0092cc;*/
+    background-color: #8080ff;
+}
+
+.mt_50{
+    margin-top: 50px;
+}
+
+.title_main{
+    width: 100%;
+    text-align: center;
+}
+
+.heading{
+    color: #ff0068;
+    font-family: 'Cairo', sans-serif;
+}
+
+.custom{
+    color: white;
+    font-size: 2em;
+    z-index: 1;
+}
+
+.card{
+    width: 100%; !important;
+    padding: 0; !important;
+}
+
+.c_b{
+    color: white;
+    z-index: 2;
+    display: flex; !important;
+    justify-content: center;
+    width: 100%; !important;
+}
+
+.form_1{
+    width: 100%;
+}
+
+.c_b_1{
+    margin: auto auto 20px auto;
+}
+.c_b_1>label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #cce0ff;
+}
+.c_b_1>select{
+    border: 3px solid #00ffff;
+}
+.c_b_1>input{
+    border: 3px solid #00ffff;
+}
+.c_b_2{
+    margin: auto auto 20px auto;
+}
+
+.c_b_2>button:hover{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid darkgreen;
+}
